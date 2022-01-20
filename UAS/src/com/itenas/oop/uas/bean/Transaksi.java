@@ -1,6 +1,7 @@
 package com.itenas.oop.uas.bean;
 
 public class Transaksi {
+	private String orderId;
 	private String game;
 	private String paymentMethod;
 	private String item;
@@ -29,6 +30,12 @@ public class Transaksi {
 	}
 	public void setPrice(double price) {
 		this.price = price;
+	}
+	public String getOrderId() {
+		return orderId;
+	}
+	public void setOrderId(String orderId) {
+		this.orderId = orderId;
 	}
 	
 	
